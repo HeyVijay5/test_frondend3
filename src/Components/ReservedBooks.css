@@ -1,0 +1,45 @@
+.reservedbooks-container{
+    background-color: rgb(16,25,13);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+}
+
+.reservedbooks-table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0px auto;
+    padding: 15px!important;
+}
+.reservedbooks-table th{
+    border: 2px solid #25c085;
+    text-align: left;
+    padding: 8px;
+    background-color: #dddddd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+  
+.reservedbooks-table td {
+    border: 2px solid #25c085;
+    text-align: left;
+    padding: 8px;
+    background-color: #dddddd;
+    font-size: medium;
+}
+
+.reservedbooks-title{
+    position: relative;
+    color: rgb(238,129,30);
+    text-align: center;
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.reservedbooks-title:hover{
+    color: red;
+    animation: wiggle 0.5s ease-in-out;
+}
